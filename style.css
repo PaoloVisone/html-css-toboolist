@@ -36,3 +36,28 @@ span {
     font-size: 40px;
     font-weight: 700;
 }
+
+/* main */
+
+main {
+
+    margin: 50px auto;
+    width: 60%;
+    height: 600px;
+    background-color: white;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    color: silver;
+    background-color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: dodgerblue;
+    color: white;
+}
