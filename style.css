@@ -37,17 +37,30 @@ span {
     font-weight: 700;
 }
 
-/* main */
+/* main  set*/
 
 main {
 
-    margin: 50px auto;
+    margin: 40px auto;
     width: 60%;
-    height: 600px;
     background-color: white;
 }
 
+#content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tobo {
+    margin-top: 20px;
+}
+
+
+
+/* Button Add */
+
 button {
+    margin-top: 20px;
     width: 80px;
     height: 30px;
     border: 1px solid silver;
@@ -57,7 +70,64 @@ button {
     cursor: pointer;
 }
 
+/* Effetto bottone */
+
 button:hover {
     background-color: dodgerblue;
     color: white;
+}
+
+/* Check color */
+
+.red {
+    color: red;
+    font-size: 20px;
+}
+
+.green {
+    color: green;
+    font-size: 20px;
+}
+
+/* Set input */
+
+input {
+    width: 80px;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* Color input */
+
+.editorial {
+    background-color: dodgerblue;
+}
+
+
+#q1-goals {
+    background-color: darkorchid;
+}
+
+#recruiting {
+    background-color: green;
+}
+
+#mobile {
+    background-color: orange;
+}
+
+#website {
+    background-color: palevioletred;
+}
+
+#sales {
+    background-color: greenyellow;
 }
