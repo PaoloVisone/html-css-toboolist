@@ -1,0 +1,38 @@
+/* Regole Generali */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Regole di Struttura */
+
+body {
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: gray;
+}
+
+/* Header-Logo */
+
+header {
+    background-color: white;
+}
+
+#content-logo {
+    padding: 10px;
+    margin-left: 10px;
+    gap: 8px;
+}
+
+#content-logo,
+img {
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+#content-logo,
+span {
+    font-size: 40px;
+    font-weight: 700;
+}
